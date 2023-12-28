@@ -8,7 +8,7 @@ image:
   repository: public.ecr.aws/b1a7o4x0/test-nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: '1.08'
+  tag: '1.09'
 
 imagePullSecrets: []
 nameOverride: ""
