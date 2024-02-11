@@ -1,5 +1,5 @@
 {{/*
-Expand the name of the chart.
+Expand the name of the chart. Please.
 */}}
 {{- define "kargo-876.name" -}}
 {{- default .Chart.Name .Values.nameOverride | trunc 63 | trimSuffix "-" }}
